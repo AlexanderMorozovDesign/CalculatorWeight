@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label8 = new System.Windows.Forms.Label();
             this.textBoxResult = new System.Windows.Forms.TextBox();
             this.labelShelfThickness = new System.Windows.Forms.Label();
@@ -316,10 +317,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDownDensity);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(580, 380);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Калькулятор веса";
+            this.Text = "Калькулятор Веса Несущие Системы";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownShelfThickness)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownWidthOutside)).EndInit();
